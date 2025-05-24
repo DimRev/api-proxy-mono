@@ -13,3 +13,8 @@ export type PaginatedQueryHistoryResponse = {
   currentPage: number;
   pageSize: number;
 };
+
+export type GetHistoryRequestParams = {
+  page: number;
+  pageSize: number;
+};
