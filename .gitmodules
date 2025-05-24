@@ -1,0 +1,7 @@
+[submodule "apps/api-proxy-be"]
+    path = apps/api-proxy-be
+    url = https://github.com/DimRev/api-proxy-be.git
+
+[submodule "apps/api-proxy-fs"]
+    path = apps/api-proxy-fs
+    url = https://github.com/DimRev/api-proxy-fs.git
