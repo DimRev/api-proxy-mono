@@ -1,12 +1,12 @@
-import { SearchResult } from '../search';
+import { SearchResultResponse } from '../search';
 
 export type QueryHistoryEntry = {
   query: string;
   timestamp: string;
-  data: SearchResult[];
+  data: SearchResultResponse[];
 };
 
-export type PaginatedQueryHistory = {
+export type PaginatedQueryHistoryResponse = {
   entries: QueryHistoryEntry[];
   totalCount: number;
   totalPages: number;
