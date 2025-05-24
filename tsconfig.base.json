@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@api/*": ["apps/api-proxy-be/src/*"],
+      "@web/*": ["apps/api-proxy-bf/src/*"],
+
+      "@repo/interfaces": ["packages/interfaces/src"]
+    }
+  }
+}
